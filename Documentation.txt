@@ -1,0 +1,9 @@
+C - CREATE USER ACCOUNT
+1). First, I created new project and create my database.
+2). Second, I create a model and controller by executing this command: php artisan make:model Account -mc
+3). Third, inside Account in Models, I add protected table named accounts, and also add the colums
+4). Then, I add it also in create_accounts_table.php inside the migration folder
+5). Then execute the command, php artisan migrate, to migrate it on our database
+6). Next is the web.php inside route folder, I create a route that calls the method index inside the AccountController.php
+7). Then I add bootstrap modal for create account
+8). 
